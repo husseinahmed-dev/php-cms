@@ -1,6 +1,6 @@
 <?php
     $name = "user";
-    $value = "Sexy Nma";
+    $value = "Here goes the value";
     $expiration = time() + (60 * 60 * 24 * 1);  // seconds * minutes * hours * days
     
     setcookie($name, $value, $expiration);

@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php
-    $name = "Kawyar";
+    $name = "Hussein";
 ?>
     <a href="get.php?name=<?php echo $name ?>">Click Here</a>
     

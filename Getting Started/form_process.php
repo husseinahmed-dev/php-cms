@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['submit'])) {
 	
-	$names = array("Hussein", "Kawyar");
+	$names = array("Hussein", "Ahmed");
 	$username = $_POST['username'];
 	$password = $_POST['password'];
 
