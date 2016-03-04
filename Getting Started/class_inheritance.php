@@ -15,13 +15,10 @@
         }
     }
     
-    $car1 = new Car();
-    $car2 = new Car();
+    class Plane extends Car {
+        var $wheels = 40;
+    }
     
-    echo "Car1 has " . $car1->wheels . " Wheels<br>";
-    echo "Car2 has " . $car2->wheels = 10 . " Wheels<br>";
-    
-    echo "Car2 doors " . $car2->doors . "<br>";
-    $car2->createDoors();
-    echo "Car2 doors after createDoors() " . $car2->doors;
+    $jet = new Plane();
+    echo $jet->wheels;
 ?>
