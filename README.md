@@ -1,4 +1,4 @@
 # php-cms
 Content Management System - PHP
 
-Here goes readme.md content
+Simple PHP tutorial for creating Content Management System (In-Progress)
